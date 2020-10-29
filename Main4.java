@@ -37,7 +37,7 @@ public class Main4 {
 			}
 		}
 		System.out.println("Количество перестановок = " + count);
-		System.out.println();
+		System.out.println();        //пустая строка
 	}
 
 	public static void randomMasElement(int[] mas, int a) {
@@ -46,11 +46,6 @@ public class Main4 {
 		for (int i = 0; i < mas.length; i++) {
 			mas[i] = rand.nextInt(a);
 		}
-	}
-
-	public static int[] masCation(int i) {
-		int[] mas = new int[i];
-		return mas;
 	}
 
 	public static void printMas(int[] mas) {
