@@ -46,10 +46,10 @@ public class Main3 {
 		}
 	}
 
-	public static int[] masCation(int i) {
-		int[] mas = new int[i];
-		return mas;
-	}
+	//public static int[] masCation(int i) {    этот метод не используется в коде      
+		//int[] mas = new int[i];
+		//return mas;
+	//}
 
 	public static void printMas(int[] mas) {
 		for (int i = 0; i < mas.length; i++) {
